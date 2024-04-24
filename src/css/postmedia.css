@@ -4,6 +4,7 @@
 	font-family: Shift-BoldItalic, serif;
 	font-size: 1.4rem;
 	margin-bottom: 0.5rem;
+	text-align: center;
 }
 #app h2 {
 	color: var(--black);
@@ -13,6 +14,7 @@
 #app h3 {
 	color: var(--black);
 	font-family: BentonSansCond-Bold, sans-serif;
+	margin-bottom: 5px;
 }
 #app h4 {
 	color: var(--black);

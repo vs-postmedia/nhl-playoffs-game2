@@ -2,10 +2,14 @@
 /* APP & CHART WRAPPER */
 #app {
 	margin: 0 auto;
-	max-width: 750px;
+	max-width: 275px;
 }
 .graphic-container {
-	display: flex;
+	/* display: flex; */
+	/* margin: 0 auto; */
+	/* justify-content: space-around; */
+}
+.graphic-container > div > iframe {
 	margin: 0 auto;
 }
 .graphic-container .flourish-chart,
@@ -26,12 +30,14 @@
 
 
 
-
-
-@media only screen and (min-width: 600px) {
-    /* Style adjustments for viewports that meet the condition */
+/* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 475px) {
+	#app {
+		margin: 0 auto;
+		max-width: 600px;
+	}
     .graphic-container {
-    	/*display: flex;*/
-    	/*justify-content: space-between;*/
+    	display: flex;
+    	justify-content: space-between;
     }
 }
