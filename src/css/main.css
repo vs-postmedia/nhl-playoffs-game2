@@ -4,6 +4,12 @@
 	margin: 0 auto;
 	max-width: 275px;
 }
+#app .italic {
+	color: var(--grey03);
+	font-family: 'BentonSansCond-RegItalic', italic;
+	margin-bottom: 10px;
+	margin-top: -5px
+}
 .graphic-container {
 	/* display: flex; */
 	/* margin: 0 auto; */
