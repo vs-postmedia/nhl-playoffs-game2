@@ -1,5 +1,5 @@
 # graphics-template
-Basic template to bootstrap multiple flourish embeds into a single graphic. Made with Webpack & node.
+Basic template to bootstrap side-by-side NHL shot maps based on data from <a href src="https://moneypuck.com/data.htm" target="_blank">Money Puck</a>
 
 # embed code
-[protected-iframe id="999999" info="https://vs-postmedia.github.io/nhl-playoffs-game2/" height="600"]
+[protected-iframe info="https://vs-postmedia.github.io/XXX/" height="550"]
